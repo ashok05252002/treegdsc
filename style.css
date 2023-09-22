@@ -34,7 +34,7 @@ body{
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0px 0px 15px 5px #00ffe8;
+    box-shadow: 0px 0px 15px 5px #4285f4;
 }
 
 .buttons-container{
@@ -54,13 +54,13 @@ body{
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: #aa00e9;
+    background-color: #5f636;
     border-radius: 25px;
     height: 45px;
     width: 432px;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0px 0px 18px 1px rgb(34 228 143 / 65%);
+    box-shadow:  0px 0px 18px 1px #4e6182;;
 }
 
 .youtube-btn:hover,.cloud-btn:hover ,.tiktok-btn:hover, .whatsapp-btn:hover, .wordpress-btn:hover{
@@ -74,8 +74,8 @@ body{
 
 
 .buttons-container img {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: -100px;
     object-fit: cover;
 }
 
