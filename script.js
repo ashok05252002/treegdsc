@@ -121,3 +121,30 @@ particlesJS("particles-js", {
     },
     "retina_detect": true
   });
+  function logoutUser() {
+    // Code to perform logout actions
+    
+    // Set flag indicating user has logged out
+    sessionStorage.setItem('loggedOut', 'true');
+    
+    // Redirect to login page or any other appropriate action
+    window.location.href = 'login.html';
+}
+// pin-script.js
+
+function checkPin() {
+  var enteredPin = document.getElementById("pinInput").value;
+
+  // Check the entered PIN and display corresponding message
+  switch (enteredPin) {
+    case "123":
+      document.getElementById("messageContainer").innerHTML = "Username: iproat | Password: 123";
+      break;
+    case "456":
+      document.getElementById("messageContainer").innerHTML = "Username: Basker | Password: 123";
+      break;
+    default:
+      document.getElementById("messageContainer").innerHTML = "Incorrect PIN. Please try again.";
+  }
+}
+
